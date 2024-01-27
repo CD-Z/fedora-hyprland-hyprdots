@@ -2,7 +2,7 @@
 
 # Function to install packages
 install_packages() {
-    sudo apt install -y "$@"
+    sudo dnf install -y "$@"
 }
 
 # Add repositories and update the system here if needed

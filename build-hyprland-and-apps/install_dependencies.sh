@@ -2,7 +2,7 @@
 
 # Function to install packages
 install_packages() {
-    sudo apt-get install -y "$@"
+    sudo dnf install -y "$@"
 }
 
 # Add repositories and update system here if needed
@@ -98,5 +98,5 @@ install_packages \
     imagemagick
   
 # Install dependencies for wlroots
-sudo apt-get build-dep wlroots
+sudo dnf build-dep wlroots
 export PATH=$PATH:/usr/local/go/bin
