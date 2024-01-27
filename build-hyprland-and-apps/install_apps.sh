@@ -11,16 +11,15 @@ install_packages() {
 install_packages \
     pipewire \
     pipewire-alsa \
-    pipewire-audio \
-    pipewire-jack \
+    pipewire-jack-audio-connection-kit \
     pipewire-pulse \
+    pipewire-devel \
     wireplumber \
-    network-manager \
-    network-manager-gnome \
+    network-manager-applet \
     bluez \
     blueman \
     brightnessctl \
-    qt6-wayland \
+    qt6-qtwayland \
     dunst \
     rofi \
     swayidle \
@@ -29,7 +28,7 @@ install_packages \
     slurp \
     polkit-kde-agent-1 \
     xdg-desktop-portal-gtk \
-    imagemagick \
+    ImageMagick \
     pavucontrol \
     pamixer \
     qt5-style-kvantum \
@@ -40,9 +39,8 @@ install_packages \
     vim \
     ark \
     zsh \
-    exa \
-    qt5-image-formats-plugins \
-    qt6-base-dev \
-    libpipewire-0.3-dev \
-    libinih-dev \
+    rust-exa \
+    qt5-qtimageformats \
+    qt6-qtbase-devel \
+    inih-devel \
     ffmpegthumbs \
