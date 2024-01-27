@@ -11,7 +11,6 @@ install_packages() {
 install_packages \
     pipewire \
     pipewire-alsa \
-    pipewire-jack-audio-connection-kit \
     pipewire-pulse \
     pipewire-devel \
     wireplumber \
