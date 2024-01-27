@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "Starting install_hyprland.sh"
+
 # Function to add a value to a configuration file if not present
 add_to_file() {
     local config_file="$1"

@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo "Starting install_swaylock-effects.sh"
 
 # Clone and install Swaylock-effects
 git clone https://github.com/mortie/swaylock-effects.git

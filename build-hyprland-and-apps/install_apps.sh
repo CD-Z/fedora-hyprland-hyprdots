@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "Starting install_apps.sh"
+
 # Function to install packages
 install_packages() {
     sudo dnf install -y "$@"

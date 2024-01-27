@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "Starting install_swww.sh"
+
 # Clone and build swww
 git clone https://github.com/Horus645/swww.git
 cd swww

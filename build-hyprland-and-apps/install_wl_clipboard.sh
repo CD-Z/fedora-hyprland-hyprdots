@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "Starting install_wl_clipboard.sh"
+
 # Clone and build wl-clipboard
 git clone https://github.com/bugaevc/wl-clipboard.git
 cd wl-clipboard

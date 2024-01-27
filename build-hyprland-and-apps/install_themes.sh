@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "Starting install_themes.sh"
+
 # install hyprdots files
 # Clone the repository
 git clone https://github.com/Senshi111/hyprland-hyprdots-files.git

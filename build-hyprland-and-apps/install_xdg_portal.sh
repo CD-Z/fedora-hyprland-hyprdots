@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo "Starting install_xdg_portal.sh"
 
 # Clone and build xdg-desktop-portal-hyprland
 git clone https://github.com/hyprwm/xdg-desktop-portal-hyprland.git

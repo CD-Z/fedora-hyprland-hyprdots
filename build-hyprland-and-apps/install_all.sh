@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "Starting install_all.sh"
+
 # Run all individual installation scripts
 ./install_dependencies.sh
 ./install_apps.sh
