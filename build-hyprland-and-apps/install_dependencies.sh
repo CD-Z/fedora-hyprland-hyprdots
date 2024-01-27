@@ -22,7 +22,6 @@ install_packages \
     libdrm-devel \
     libxkbcommon-devel \
     mesa-libGL-devel \
-    mesa-gbm-devel \
     libgudev-devel \
     libseat-devel \
     libdisplay-info-devel \
@@ -30,7 +29,6 @@ install_packages \
     libliftoff-devel \
     libinput-devel \
     libxcb-devel \
-    xorg-x11-server-xwayland \
     extra-cmake-modules \
     gettext \
     gobject-introspection \
@@ -47,7 +45,6 @@ install_packages \
     systemd-devel \
     gtk3-devel \
     scdoc \
-    pam0g-devel \
     golang \
     waybar \
     curl \
