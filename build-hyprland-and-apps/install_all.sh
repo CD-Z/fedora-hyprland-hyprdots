@@ -2,6 +2,7 @@
 
 # Run all individual installation scripts
 ./install_dependencies.sh
+./install_apps.sh
 ./install_hyprland.sh
 ./install_rust.sh
 ./install_swww.sh
@@ -13,6 +14,5 @@
 ./install_swaylock-effects.sh
 ./install_nwg-look.sh
 ./install_pokemon-colorscripts.sh
-./install_apps.sh
 ./install_themes.sh
 ./cleanup.sh
