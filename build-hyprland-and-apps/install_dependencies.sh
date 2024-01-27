@@ -3,75 +3,75 @@
 # Function to install packages
 install_packages() {
     sudo dnf install -y "$@"
+    sudo dnf group install c-development development-tools
 }
 
 # Add repositories and update system here if needed
 
 # Install required packages
 install_packages \
-    build-essential \
     git \
     ninja-build \
     meson \
-    libcairo2-dev \
-    libpango1.0-dev \
+    cairo-devel \
+    pango-devel \
     jq \
     cmake \
     wayland-protocols \
-    libwayland-dev \
-    libdrm-dev \
-    libxkbcommon-dev \
-    libgl1-mesa-dev \
-    libgbm-dev \
-    libudev-dev \
-    libseat-dev \
-    libdisplay-info-dev \
+    wayland-devel \
+    drm-devel \
+    xkbcommon-devel \
+    gl1-mesa-devel \
+    gbm-devel \
+    udev-devel \
+    seat-devel \
+    display-info-devel \
     hwdata \
-    libliftoff-dev \
-    libinput-dev \
-    libxcb-dri3-dev \
-    libxcb-present-dev \
-    libxcb-render-util0-dev \
-    libxcb-xinput-dev \
+    liftoff-devel \
+    input-devel \
+    xcb-dri3-devel \
+    xcb-present-devel \
+    xcb-render-util0-devel \
+    xcb-xinput-devel \
     xwayland \
-    libxcb-composite0-dev \
-    libxcb-ewmh-dev \
-    libxcb-icccm4-dev \
-    libxcb-res0-dev \
+    xcb-composite0-devel \
+    xcb-ewmh-devel \
+    xcb-icccm4-devel \
+    xcb-res0-devel \
     cmake-extras \
     gettext \
     gir1.2-graphene-1.0 \
     glslang-tools \
     gobject-introspection \
-    libavcodec-dev \
-    libavformat-dev \
-    libavutil-dev \
-    libdeflate-dev \
-    libegl1-mesa-dev \
-    libgdk-pixbuf-2.0-dev \
-    libgdk-pixbuf2.0-bin \
-    libgirepository1.0-dev \
-    libgraphene-1.0-0 \
-    libgraphene-1.0-dev \
-    libgulkan-0.15-0 \
-    libgulkan-dev \
-    libjbig-dev \
-    libjpeg-dev \
-    libjpeg62-turbo-dev \
-    liblerc-dev \
-    liblzma-dev \
-    libswresample-dev \
-    libtiff-dev \
-    libtiffxx6 \
-    libvkfft-dev \
-    libvulkan-dev \
-    libvulkan-volk-dev \
-    libwebp-dev \
-    libxcb-xkb-dev \
-    libxkbcommon-x11-dev \
-    libxkbregistry-dev \
-    libxml2-dev \
-    libxxhash-dev \
+    avcodec-devel \
+    avformat-devel \
+    avutil-devel \
+    deflate-devel \
+    egl1-mesa-devel \
+    gdk-pixbuf-2.0-devel \
+    gdk-pixbuf2.0-bin \
+    girepository1.0-devel \
+    graphene-1.0-0 \
+    graphene-1.0-devel \
+    gulkan-0.15-0 \
+    gulkan-devel \
+    jbig-devel \
+    jpeg-devel \
+    jpeg62-turbo-devel \
+    lerc-devel \
+    lzma-devel \
+    swresample-devel \
+    tiff-devel \
+    tiffxx6 \
+    vkfft-devel \
+    vulkan-devel \
+    vulkan-volk-devel \
+    webp-devel \
+    xcb-xkb-devel \
+    xkbcommon-x11-devel \
+    xkbregistry-devel \
+    xml2-devel \
+    xxhash-devel \
     python3-mako \
     python3-markdown \
     python3-markupsafe \
@@ -79,17 +79,17 @@ install_packages \
     seatd \
     spirv-tools \
     vulkan-validationlayers \
-    vulkan-validationlayers-dev \
+    vulkan-validationlayers-devel \
     xdg-desktop-portal \
     xdg-desktop-portal-wlr \
-    libsystemd-dev \
-    qt6-base-dev \
+    systemd-devel \
+    qt6-base-devel \
     build-essential \
-    libgtk-3-dev \
-    libpipewire-0.3-dev \
-    libinih-dev \
+    gtk-3-devel \
+    pipewire-0.3-devel \
+    inih-devel \
     scdoc \
-    libpam0g-dev \
+    pam0g-devel \
     golang \
     waybar \
     curl \
