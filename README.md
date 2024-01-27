@@ -228,7 +228,6 @@ To add your own custom theme, please refer [theming.md](https://github.com/prasa
 | shell                    |                         |
 | :----------------------- | ----------------------- |
 | zsh                      | main shell              |
-| exa                      | colorful file lister    |
 | oh-my-zsh-git            | for zsh plugins         |
 | pokemon-colorscripts-git | display pokemon sprites |
 

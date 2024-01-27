@@ -30,7 +30,7 @@ install_packages \
     ImageMagick \
     pavucontrol \
     pamixer \
-    qt5-style-kvantum \
+    kvantum \
     qt5ct \
     kitty \
     neofetch \
@@ -38,7 +38,6 @@ install_packages \
     vim \
     ark \
     zsh \
-    rust-exa \
     qt5-qtimageformats \
     qt6-qtbase-devel \
     inih-devel \
