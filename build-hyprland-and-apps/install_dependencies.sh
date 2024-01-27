@@ -3,7 +3,7 @@
 # Function to install packages
 install_packages() {
     sudo dnf install -y "$@"
-    sudo dnf group install c-development development-tools
+    sudo dnf group install -y c-development development-tools
 }
 
 # Add repositories and update system here if needed
@@ -50,7 +50,8 @@ install_packages \
     curl \
     psmisc \
     swaylock \
+    wlroots \
   
 # Install dependencies for wlroots
-sudo dnf build-dep wlroots
+# sudo dnf build-dep wlroots
 export PATH=$PATH:/usr/local/go/bin
