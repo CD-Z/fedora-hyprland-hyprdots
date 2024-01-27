@@ -25,7 +25,7 @@ install_packages \
     libgudev-devel \
     libseat-devel \
     libdisplay-info-devel \
-    hwdata \
+    hwdata-devel \
     libliftoff-devel \
     libinput-devel \
     libxcb-devel \
@@ -42,15 +42,24 @@ install_packages \
     spirv-tools \
     xdg-desktop-portal \
     xdg-desktop-portal-wlr \
+    xcb-util-renderutil-devel \
+    xcb-util-wm-devel \
+    xcb-util-errors-devel \
+    xorg-x11-server-Xwayland-devel \
     systemd-devel \
     gtk3-devel \
     scdoc \
     golang \
     waybar \
     curl \
+    pam-devel \
     psmisc \
     swaylock \
+    mesa-libgbm-devel \
     wlroots \
+    tomlplusplus-devel \
+    vulkan-utility-libraries-devel \
+    hyprland-protocols-devel \
   
 # Install dependencies for wlroots
 # sudo dnf build-dep wlroots
